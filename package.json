@@ -1,0 +1,19 @@
+{
+  "name": "vk-coin-chacht",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zabozlaev/vk-coin-chacht.git",
+  "author": "Zabcode <hunter.eal@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.0.1",
+    "vk-io": "^4.0.0-rc.16",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon src/client.js"
+  }
+}
